@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Create a colour</h2>
 --- task ---
-Create some colours for your pet drawing.
+Create some colours for your pet picture.
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Red</h2>

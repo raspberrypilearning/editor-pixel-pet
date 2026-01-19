@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Animate the pet</h2>
 --- task ---
-You can create an animation by changing the displayed image.
+You can create an animation by changing the displayed picture.
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Use a `for` loop</h2>
@@ -25,7 +25,7 @@ for i in range(5):
 </div>
 
 <div class="c-project-output">
-![2 image animation of the LED cat walking](images/animated-cat.gif)
+![2-picture animation of the LED cat walking](images/animated-cat.gif)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">

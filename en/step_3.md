@@ -12,7 +12,7 @@ Computers use three numbers to store a colour.
 
 Add green and blue colours, and a new colour of your own to your program.
 
-Colour the pixels on the screen using your new colours.
+Colour the pixels on the LED display using your new colours.
 
 <div class="c-project-code">
 --- code ---
