@@ -1,0 +1,4 @@
+name: "Pixel Pet - complete"
+identifier: "editor-pixel-pet-complete"
+type: 'python'
+build: true

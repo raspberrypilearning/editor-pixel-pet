@@ -1,45 +1,42 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+##  Introduction
 
-A brief description - one or two sentences. 
+Using sensors and output devices is a great way to make your computer programs more interactive. The Raspberry Pi Sense HAT contains a whole set of sensors that can be used to detect movement. In this resource, you will use these to take a digital pet for a walk. You can watch a video tutorial for the project [here](https://www.youtube.com/watch?v=gfRDFvEVz-w&rel=0){:target="_blank"}.
 
---- print-only ---
+### What you will make
 
-![ALT TEXT](images/IMAGE.png)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2Bvlb6KC9Rk" frameborder="0" allowfullscreen></iframe>
 
---- /print-only ---
+--- collapse ---
+---
+title: What you will learn
+---
+By creating your very own interactive pixel pet with code you will learn how to:
 
---- no-print ---
+- Use variables and lists in Python to display an image on the Sense HAT LED matrix
+- Use for loops and while loops to repeat instructions
+- Create a function in Python
+- Use the Sense HAT's accelerometer to detect movement and trigger some code
 
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
+This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/){:target="_blank"}:
 
---- /no-print ---
+- [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator){:target="_blank"}
+- [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+- [Combine inputs and/or outputs to create projects or solve a problem](https://www.raspberrypi.org/curriculum/physical-computing/builder){:target="_blank"}
+--- /collapse ---
 
---- no-print ---
+--- collapse ---
+---
+title: What you will need
+---
+### Hardware
+- A Raspberry Pi
+- A Sense HAT
 
-Video embed
 
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
+### Software
+All necessary software is pre-installed on Raspbian.
+--- /collapse ---
 
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
 
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
-</div>
 
---- /no-print ---
 
-### You will need:
-- a
-- b
-- c

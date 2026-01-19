@@ -1,14 +1,34 @@
-title: Project title in sentence case
+---
+title: Pixel pet
 hero_image: images/banner.png
-description: A short description of the project
+description: Make a walking pixel pet with your Raspberry Pi and a Sense HAT
+original_url: https://www.raspberrypi.org/learning/pixel-pet/
+theme: red
+duration: 2
+ingredient: false
 listed: false
-pdf: false
+copyedit: true
+curriculum: 3, design-1, programming-3, phys-comp-1, manufacture-0, community-0
+interests: animals, games
+technologies: raspberry-pi, python, sense-hat
+hardware: ''
+software: ''
+site_areas: projects
+version: 4.0.1
+last_tested: 2018-02-01
 steps:
-  - title: What you will make
-  - title: Step title
-    completion:
-      - engaged      
-  - title: Challenge
-    challenge: true
-    completion:
-      - external
+- title: Introduction
+- title: Draw your pixel pet
+- title: Setting your colours
+  completion:
+  - engaged
+- title: Representing your pet
+- title: Animate your pet
+- title: Create a walking function
+- title: Shake to activate
+  completion:
+  - internal
+- title: 'Challenge: What else can you do?'
+  challenge: true
+  completion:
+  - external
