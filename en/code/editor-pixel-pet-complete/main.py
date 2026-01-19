@@ -5,7 +5,7 @@ sense = SenseHat()
 sense.set_rotation(270, False)
 
 p = (204, 0, 204) # Pink
-g = (0, 102, 102) # Gray
+g = (0, 102, 102) # Green
 w = (200, 200, 200) # White
 y = (204, 204, 0) # Yellow
 e = (0, 0, 0) # Empty
@@ -42,5 +42,4 @@ def walking():
 while True:
     hum = sense.get_humidity()
     if hum > 50:
-        print(hum)
         walking()

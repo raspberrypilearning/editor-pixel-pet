@@ -17,18 +17,16 @@ site_areas: projects
 version: 4.0.1
 last_tested: 2018-02-01
 steps:
-- title: Introduction
-- title: Draw your pixel pet
-- title: Setting your colours
+- title: Step 1
+- title: Step 2
   completion:
   - engaged
-- title: Representing your pet
-- title: Animate your pet
-- title: Create a walking function
-- title: Shake to activate
+- title: Step 3
+- title: Step 4
+- title: Step 5
+- title: Step 6
+- title: Step 7
+- title: Step 8
   completion:
   - internal
-- title: 'Challenge: What else can you do?'
-  challenge: true
-  completion:
   - external
