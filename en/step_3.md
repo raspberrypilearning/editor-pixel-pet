@@ -6,9 +6,9 @@ Add three more colours to use.
 <h2 class="c-project-heading--explainer">R, G, B</h2>
 
 Computers use three numbers to store a colour.
-- R --> The ammount of red from 0 to 255
-- G --> The ammount of green from 0 to 255
-- B --> The ammount of blue from 0 to 255
+- R --> The amount of red from 0 to 255
+- G --> The amount of green from 0 to 255
+- B --> The amount of blue from 0 to 255
 
 Add green and blue colours, and a new colour of your own to your program.
 
@@ -43,7 +43,7 @@ sense.set_pixel(3, 0, a)
 
 ### Tip
 
-If you want black then the numbers are `(0, 0, 0)`
+If you want black, then the numbers are `(0, 0, 0)`.
 
 White is `(255, 255, 255)`
 
@@ -55,6 +55,6 @@ You can use a [colour picker](https://share.google/WkKa3VbOYnhYYkC9h) to find mo
 
 ### Debugging
 
-Make sure that each of the three colour values are between `0` and `255`.
+Make sure that each of the three colour values is between `0` and `255`.
 
 </div>

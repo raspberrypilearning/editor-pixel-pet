@@ -5,9 +5,9 @@ Create and test a second version of your pet.
 
 <h2 class="c-project-heading--explainer">Write another list</h2>
 
-Create a second list, with the changed version of your pet.
+Create a second list with the changed version of your pet.
 
-Test this out by changing which version is displayed on the LED display
+Test this by changing which version is displayed on the LED display.
 
 <div class="c-project-code">
 --- code ---
@@ -36,5 +36,3 @@ sense.set_pixels(pet2)
 <div class="c-project-output">
 ![a picture of the changed cat on the full LED display](images/cat-2.png)
 </div>
-
-<div class="c-project-callout c-project-callout--tip">

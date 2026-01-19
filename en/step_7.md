@@ -1,11 +1,11 @@
 <h2 class="c-project-heading--task">Animate the pet</h2>
 --- task ---
-You can create an animation, by changing the displayed image.
+You can create an animation by changing the displayed image.
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Use a `for` loop</h2>
 
-Create a `for` loop at the end of your program, to quickly change between the two versions of the pet.
+Create a `for` loop at the end of your program to quickly change between the two versions of the pet.
 
 <div class="c-project-code">
 --- code ---
@@ -32,7 +32,7 @@ for i in range(5):
 
 ### Tip
 
-You can change the speed of the animation, by changing the `sleep` times.
+You can change the speed of the animation by changing the `sleep` times.
 
 </div>
 

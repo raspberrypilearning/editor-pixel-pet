@@ -1,11 +1,11 @@
 <h2 class="c-project-heading--task">Create a colour</h2>
 --- task ---
-Create some colours for your pet drawing
+Create some colours for your pet drawing.
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Red</h2>
 
-Create a variable called `r` and set it's colour to `255, 0, 0`. Then colour the top-left pixel that colour.
+Create a variable called `r` and set its colour to `255, 0, 0`. Then colour the top-left pixel in that colour.
 
 <div class="c-project-code">
 --- code ---
@@ -37,7 +37,6 @@ Run your code.
 
 ### Debugging
 
-Check that you have commas between the text in `()`.
+Check that you have commas between the numbers in `()`.
 
 </div>
-

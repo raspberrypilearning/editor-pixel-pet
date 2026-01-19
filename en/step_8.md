@@ -1,9 +1,9 @@
 <h2 class="c-project-heading--task">Trigger the animation</h2>
 --- task ---
-You can make the animation run, when the environment changes.
+You can make the animation run when the environment changes.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Call your own funtion</h2>
+<h2 class="c-project-heading--explainer">Call your own function</h2>
 
 The `for` loop can sit inside a function. This can be **called** whenever the humidity changes.
 

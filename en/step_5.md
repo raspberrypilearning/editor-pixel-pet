@@ -9,7 +9,7 @@ You could keep setting single pixels to draw a picture using all the LEDs.
 
 It is easier to write a list, saying what each of the pixels' colours should be.
 
-On your pictures, add the letters used to code the colour. Then use these letters in your program.
+On your picture, add the letters used to code the colour. Then use these letters in your program.
 
 ![annotated pet picture with letters drawn in each square to encode the colour](images/annotated-cat.png)
 
@@ -52,7 +52,7 @@ sense.set_pixels(pet1)
 
 ### Debugging
 
-This list needs **8** letters on each row, and **8** rows in total.
+This list needs **8** letters on each row and **8** rows in total.
 
 Check that there are commas at the end of each row.
 

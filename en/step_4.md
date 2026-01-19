@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Draw your pixel pet</h2>
 --- task ---
-Design the pet you want to show on the display. 
+Design the pet you want to show on the display.
 
 [Here are some examples](https://www.youtube.com/watch?v=PpHFQXoISWc&rel=0){:target="_blank"} to give you an idea!
 
@@ -9,7 +9,7 @@ Design the pet you want to show on the display.
 
 <h2 class="c-project-heading--explainer">Add another costume</h2>
 
-You will need another pet design, very similar to the first, so that we can animate your pet.
+You will need another pet design that is very similar to the first, so you can animate your pet.
 
 The image below is almost identical to the one above, but the feet are in a different position:
 
