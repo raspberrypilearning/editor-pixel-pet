@@ -32,8 +32,6 @@ pet2 = [
     e, e, e, e, e, e, e, e
     ]
 
-sense.clear(0, 0, 0)
-
 def walking():
     for i in range(5):
         sense.set_pixels(pet1)

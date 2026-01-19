@@ -11,9 +11,3 @@ Make a pixel pet move when the humidity changes.
 Chnage the humidity to watch the cat run.
 
 --- /task ---
-
-
-
-
-
-

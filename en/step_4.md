@@ -1,56 +1,16 @@
-## Representing your pet
-
-The pet you designed earlier can now be represented by a Python list.
-
+<h2 class="c-project-heading--task">Draw your pixel pet</h2>
 --- task ---
-Create a list like the one below called `pet1`, and type in the colour of each pixel, using the colour variable names you just created. Note that the list needs to be surrounded by `[` and `]` and each colour pixel must be followed by a comma.
+Design the pet you want to show on the display. 
 
-```python
-pet1 = [
-	e, e, e, e, e, e, e, e,
-	p, e, e, e, e, e, e, e,
-	e, p, e, e, p, e, p, e,
-	e, p, g, g, p, y, y, e,
-	e, g, g, g, y, w, y, g,
-	e, g, g, g, g, y, y, e,
-	e, g, e, g, e, g, e, e,
-	e, e, e, e, e, e, e, e
-]
-```
+[Here are some examples](https://www.youtube.com/watch?v=PpHFQXoISWc&rel=0){:target="_blank"} to give you an idea!
+
+![square paper avatar](images/square-paper.png)
 --- /task ---
 
---- task ---
-Repeat this for the second pixel pet design, but use a different name, such as `pet2`.
---- /task ---
+<h2 class="c-project-heading--explainer">Add another costume</h2>
 
---- task ---
-If you ran your code now, nothing would happen, because so far you have only told the program to store information. To make something happen, you will need to write a command to call on that data and display your colours in the right order on the Sense HAT LED matrix. Add this command below your lists:
+You will need another pet design, very similar to the first, so that we can animate your pet.
 
-```python
-sense.set_pixels(pet1)
-```
---- /task ---
+The image below is almost identical to the one above, but the feet are in a different position:
 
---- task ---
-When you've run the program once, you can type directly into the shell (at the bottom of the Mu window) to switch back and forth between your two pets.
-
-```python
->>> sense.set_pixels(pet2)
-```
---- /task ---
-
---- task ---
-If you want to clear the LED matrix after setting the images, you can use the following command:
-
-```python
->>> sense.clear()
-```
---- /task ---
-
---- collapse ---
----
-title: Video help
----
-Here's a video to help you out if you get stuck:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gBbYjKGAQsM" frameborder="0" allowfullscreen></iframe>
---- /collapse ---
+![](images/square-paper-2.png)

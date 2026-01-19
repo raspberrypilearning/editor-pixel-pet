@@ -1,17 +1,43 @@
-## Draw your pixel pet
-
-First you'll need to design your pet avatar. [Here are some examples](https://www.youtube.com/watch?v=PpHFQXoISWc&rel=0){:target="_blank"} to give you an idea! 
-
+<h2 class="c-project-heading--task">Create a colour</h2>
 --- task ---
-Draw your picture out on squared paper with coloured pencils, like this:
-
-![square paper avatar](images/square-paper.png)
+Create some colours for your pet drawing
 --- /task ---
 
---- task ---
-You will need another pet design, preferably one that is very similar to the first, so that we can animate your pet. The image below is almost identical to the one above, but the feet are in a different position:
+<h2 class="c-project-heading--explainer">Red</h2>
 
-![](images/square-paper-2.png)
---- /task ---
+Create a variable called `r` and set it's colour to `255, 0, 0`. Then colour the top-left pixel that colour.
 
-Later, when you code your animation, you will use these two designs to create the illusion that the pet is walking.
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 7, 9
+---
+from sense_hat import SenseHat
+from time import sleep
+
+sense = SenseHat()
+sense.set_rotation(270, False)
+
+r = (255, 0, 0)
+
+sense.set_pixel(0, 0, r)
+--- /code ---
+</div>
+
+Run your code.
+<div class="c-project-output">
+![top left pixel coloured red on the LED display](images/1-red-pixel.png)
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+Check that you have commas between the text in `()`.
+
+</div>
+

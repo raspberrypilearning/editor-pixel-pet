@@ -1,58 +1,60 @@
-## Setting your colours
-
-Now that you have your designs represented as letters in a grid or array, you can start to code them in Python.
-
+<h2 class="c-project-heading--task">More colours</h2>
 --- task ---
-Open mu.
-
-[[[mu-open]]]
+Add three more colours to use.
 --- /task ---
 
---- task ---
-Save this empty file as `space-pet.py`.
---- /task ---
+<h2 class="c-project-heading--explainer">R, G, B</h2>
 
---- task ---
-First you need to import all the modules and libraries you will use for this project by typing:
+Computers use three numbers to store a colour.
+- R --> The ammount of red from 0 to 255
+- G --> The ammount of green from 0 to 255
+- B --> The ammount of blue from 0 to 255
 
-```python
-from sense_hat import SenseHat
-from time import sleep
-```
---- /task ---
+Add green and blue colours, and a new colour of your own to your program.
 
---- task ---
-Next you need to create a `SenseHat()` object to interact with the Sense HAT:
+Colour the pixels on the screen using your new colours.
 
-```python
-sense = SenseHat()
-```
-
-Note that capital letters, full stops, and commas are very important in Python. Your code might not work if you do not include these.
---- /task ---
-
---- task ---
-Create one variable to represent each of the colours you have used in your design. If you use a single letter instead of the full colour name, you will find it easier later on, but make sure you have no duplicates - you can't use `b` for both blue and black!
-
-```python
-b = (0, 0, 255)
-```
---- /task ---
-
-You can look up the RGB values of the colours using a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"}.
-
-These variables are called **tuples**.
-
-[[[generic-python-tuples]]]
-
---- hints --- --- hint ---
-Give your variable a name, then add in the three numbers that represent the colour, separated by commas and surrounded by parentheses.
---- /hint --- --- hint ---
-If you wanted to code the colour red, then you would use this code:
-```python
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 6
+line_highlights: 8-10, 13-15
+---
 r = (255, 0, 0)
-```
---- /hint --- --- hint ---
-Here's a video showing you how to set your colours:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j5J85lA0JJs" frameborder="0" allowfullscreen></iframe>
---- /hint --- --- /hints ---
+g = (0, 255, 0)
+b = (0, 0, 255)
+a = ()
+
+sense.set_pixel(0, 0, r)
+sense.set_pixel(1, 0, g)
+sense.set_pixel(2, 0, b)
+sense.set_pixel(3, 0, a)
+--- /code ---
+</div>
+
+<div class="c-project-output">
+![LED display with top-left pixels coloured red, green, blue and white](images/4-coloured-pixels.png)
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+If you want black then the numbers are `(0, 0, 0)`
+
+White is `(255, 255, 255)`
+
+You can use a [colour picker](https://share.google/WkKa3VbOYnhYYkC9h) to find more colours to use.
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+Make sure that each of the three colour values are between `0` and `255`.
+
+</div>
