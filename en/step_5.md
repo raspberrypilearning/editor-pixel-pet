@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Draw a picture</h2>
+
 --- task ---
+
 Use a list to colour all the pixels.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Pictures with lists</h2>

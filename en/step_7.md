@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Animate the pet</h2>
+
 --- task ---
+
 You can create an animation by changing the displayed picture.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Use a `for` loop</h2>

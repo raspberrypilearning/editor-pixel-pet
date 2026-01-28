@@ -1,9 +1,11 @@
 <h2 class="c-project-heading--task">What you will make</h2>
+
 --- task ---
 
 Make a pixel pet move when the humidity changes.
 
 --- /task ---
+
 
 --- task ---
 

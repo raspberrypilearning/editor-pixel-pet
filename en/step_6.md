@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Change the pet</h2>
+
 --- task ---
+
 Create and test a second version of your pet.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Write another list</h2>
@@ -16,7 +19,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 24
-line_highlights: 
+line_highlights: 24-33, 36-37
 ---
 pet2 = [
     e, e, e, e, e, e, e, e,
@@ -29,6 +32,8 @@ pet2 = [
     e, e, e, e, e, e, e, e
     ]
 
+sense.set_pixels(pet1)
+sleep(0.5)
 sense.set_pixels(pet2)
 --- /code ---
 </div>
