@@ -7,7 +7,6 @@ theme: red
 duration: 2
 ingredient: false
 listed: false
-landing: true
 copyedit: true
 curriculum: 3, design-1, programming-3, phys-comp-1, manufacture-0, community-0
 interests: animals, games
@@ -17,17 +16,18 @@ software: ''
 site_areas: projects
 version: 4.0.1
 last_tested: 2018-02-01
+landing: true
 steps:
-- title: Step 1
-- title: Step 2
-  completion:
-  - engaged
-- title: Step 3
-- title: Step 4
-- title: Step 5
-- title: Step 6
-- title: Step 7
-- title: Step 8
-  completion:
-  - internal
-  - external
+  - title: Create a colour
+  - title: More colours
+    completion:
+      - engaged
+  - title: Draw your pixel pet
+  - title: Draw a picture
+  - title: Change the pet
+  - title: Animate the pet
+    completion:
+      - internal
+  - title: Trigger the animation
+    completion:
+      - external

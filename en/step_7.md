@@ -1,14 +1,13 @@
-<h2 class="c-project-heading--task">Animate the pet</h2>
+<h2 class="c-project-heading--task">Trigger the animation</h2>
 
---- task ---
+### Step 1
 
-You can create an animation by changing the displayed picture.
+You can make the animation run when the environment changes.
 
---- /task ---
 
-<h2 class="c-project-heading--explainer">Use a `for` loop</h2>
+<h2 class="c-project-heading--explainer">Call your own function</h2>
 
-Create a `for` loop at the end of your program to quickly change between the two versions of the pet.
+The `for` loop can sit inside a function. This can be **called** whenever the humidity changes.
 
 <div class="c-project-code">
 --- code ---
@@ -19,30 +18,25 @@ line_numbers: true
 line_number_start: 35
 line_highlights: 
 ---
-for i in range(5):
-    sense.set_pixels(pet1)
-    sleep(0.5)
-    sense.set_pixels(pet2)
-    sleep(0.5)
---- /code ---
-</div>
+def walking():
+    for i in range(5):
+        sense.set_pixels(pet1)
+        sleep(0.5)
+        sense.set_pixels(pet2)
+        sleep(0.5)
 
-<div class="c-project-output">
-![2-picture animation of the LED cat walking](images/animated-cat.gif)
+while True:
+    hum = sense.get_humidity()
+    if hum > 50:
+        walking()
+--- /code ---
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-You can change the speed of the animation by changing the `sleep` times.
+Change the humidity using the slider.
 
-</div>
-
-<div class="c-project-callout c-project-callout--debug">
-
-### Debugging
-
-Check that you have four spaces of indentation on the lines beneath your `for` loop.
-
+![the humidity slider set to 45%](images/humidity.png)
 </div>
