@@ -1,9 +1,6 @@
 <h2 class="c-project-heading--task">Draw a picture</h2>
 
-### Step 1
-
 Use a list to colour all the pixels.
-
 
 <h2 class="c-project-heading--explainer">Pictures with lists</h2>
 
@@ -13,8 +10,9 @@ It is easier to write a list, saying what each of the pixels' colours should be.
 
 On your picture, add the letters used to code the colour. Then use these letters in your program.
 
+<div class="c-project-output">
 ![annotated pet picture with letters drawn in each square to encode the colour](images/annotated-cat.png)
-
+</div>
 <div class="c-project-code">
 --- code ---
 ---
@@ -49,13 +47,17 @@ sense.set_pixels(pet1)
 ![a picture of a cat on the full LED display](images/cat-1.png)
 </div>
 
+### Debugging
+
 <div class="c-project-callout c-project-callout--tip">
 
-
-### Debugging
 
 This list needs **8** letters on each row and **8** rows in total.
 
 Check that there are commas at the end of each row.
 
 </div>
+
+## Now run your code
+
+Confirm the observable result.

@@ -1,9 +1,6 @@
 <h2 class="c-project-heading--task">Create a colour</h2>
 
-### Step 1
-
 Create some colours for your pet picture.
-
 
 <h2 class="c-project-heading--explainer">Red</h2>
 
@@ -35,10 +32,14 @@ Run your code.
 ![top left pixel coloured red on the LED display](images/1-red-pixel.png)
 </div>
 
-<div class="c-project-callout c-project-callout--debug">
-
 ### Debugging
+
+<div class="c-project-callout c-project-callout--debug">
 
 Check that you have commas between the numbers in `()`.
 
 </div>
+
+## Now run your code
+
+Confirm the observable result.

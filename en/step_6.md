@@ -1,9 +1,6 @@
 <h2 class="c-project-heading--task">Animate the pet</h2>
 
-### Step 1
-
 You can create an animation by changing the displayed picture.
-
 
 <h2 class="c-project-heading--explainer">Use a `for` loop</h2>
 
@@ -30,18 +27,22 @@ for i in range(5):
 ![2-picture animation of the LED cat walking](images/animated-cat.gif)
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 You can change the speed of the animation by changing the `sleep` times.
 
 </div>
 
-<div class="c-project-callout c-project-callout--debug">
-
 ### Debugging
+
+<div class="c-project-callout c-project-callout--debug">
 
 Check that you have four spaces of indentation on the lines beneath your `for` loop.
 
 </div>
+
+## Now run your code
+
+Confirm the observable result.

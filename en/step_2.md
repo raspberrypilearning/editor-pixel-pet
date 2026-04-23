@@ -1,9 +1,6 @@
 <h2 class="c-project-heading--task">More colours</h2>
 
-### Step 1
-
 Add three more colours to use.
-
 
 <h2 class="c-project-heading--explainer">R, G, B</h2>
 
@@ -11,8 +8,6 @@ Computers use three numbers to store a colour.
 - R --> The amount of red from 0 to 255
 - G --> The amount of green from 0 to 255
 - B --> The amount of blue from 0 to 255
-
-### Step 2
 
 Add green and blue colours, and a new colour of your own to your program.
 
@@ -44,9 +39,9 @@ sense.set_pixel(3, 0, a)
 ![LED display with top-left pixels coloured red, green, blue and white](images/4-coloured-pixels.png)
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 If you want black, then the numbers are `(0, 0, 0)`.
 
@@ -56,10 +51,14 @@ You can use a [colour picker](https://share.google/WkKa3VbOYnhYYkC9h){:target="_
 
 </div>
 
-<div class="c-project-callout c-project-callout--debug">
-
 ### Debugging
+
+<div class="c-project-callout c-project-callout--debug">
 
 Make sure that each of the three colour values is between `0` and `255`.
 
 </div>
+
+## Now run your code
+
+Confirm the observable result.

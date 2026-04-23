@@ -1,9 +1,6 @@
 <h2 class="c-project-heading--task">Change the pet</h2>
 
-### Step 1
-
 Create and test a second version of your pet.
-
 
 <h2 class="c-project-heading--explainer">Write another list</h2>
 
@@ -40,3 +37,7 @@ sense.set_pixels(pet2)
 <div class="c-project-output">
 ![a picture of the changed cat on the full LED display](images/cat-2.png)
 </div>
+
+## Now run your code
+
+Confirm the observable result.

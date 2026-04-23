@@ -1,9 +1,6 @@
 <h2 class="c-project-heading--task">Trigger the animation</h2>
 
-### Step 1
-
 You can make the animation run when the environment changes.
-
 
 <h2 class="c-project-heading--explainer">Call your own function</h2>
 
@@ -32,11 +29,17 @@ while True:
 --- /code ---
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 Change the humidity using the slider.
 
+<div class="c-project-output">
 ![the humidity slider set to 45%](images/humidity.png)
 </div>
+</div>
+
+## Now run your code
+
+Confirm the observable result.
