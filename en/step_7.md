@@ -42,4 +42,4 @@ Change the humidity using the slider.
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code, raise the humidity above 50 with the slider, and check that your pet starts walking.

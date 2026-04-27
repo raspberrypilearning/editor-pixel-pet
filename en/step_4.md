@@ -60,4 +60,4 @@ Check that there are commas at the end of each row.
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that your full pet picture appears on the LED display.

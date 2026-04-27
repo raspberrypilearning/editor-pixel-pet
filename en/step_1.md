@@ -42,4 +42,4 @@ Check that you have commas between the numbers in `()`.
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that the top-left LED lights up red.

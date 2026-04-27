@@ -45,4 +45,4 @@ Check that you have four spaces of indentation on the lines beneath your `for` l
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that the two pictures play as a walking animation.

@@ -40,4 +40,4 @@ sense.set_pixels(pet2)
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that the second pet picture appears after the first one.

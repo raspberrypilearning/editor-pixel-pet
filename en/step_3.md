@@ -19,4 +19,4 @@ The picture below is almost identical to the one above, but the feet are in a di
 
 ## Now run your code
 
-Confirm the observable result.
+Check that you have planned two similar 8x8 pet pictures, with a small difference between them for animation.

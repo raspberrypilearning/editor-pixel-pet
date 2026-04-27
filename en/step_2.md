@@ -61,4 +61,4 @@ Make sure that each of the three colour values is between `0` and `255`.
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that the first four LEDs show red, green, blue, and your own colour.
