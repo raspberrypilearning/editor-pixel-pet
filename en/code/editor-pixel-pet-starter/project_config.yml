@@ -1,0 +1,4 @@
+name: "Pixel pet - starter"
+identifier: "editor-pixel-pet-starter"
+type: 'python'
+build: true

@@ -1,45 +1,45 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+<h2 class="c-project-heading--task">Create a colour</h2>
 
-A brief description - one or two sentences. 
+Create some colours for your pet picture.
 
---- print-only ---
+<h2 class="c-project-heading--explainer">Red</h2>
 
-![ALT TEXT](images/IMAGE.png)
+Create a variable called `r` and set its colour to `255, 0, 0`. Then colour the top-left pixel in that colour.
 
---- /print-only ---
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 7, 9
+---
+from sense_hat import SenseHat
+from time import sleep
 
---- no-print ---
+sense = SenseHat()
+sense.set_rotation(270, False)
 
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
+r = (255, 0, 0)
 
---- /no-print ---
-
---- no-print ---
-
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
+sense.set_pixel(0, 0, r)
+--- /code ---
 </div>
 
---- /no-print ---
+Run your code.
+<div class="c-project-output">
+![top left pixel coloured red on the LED display](images/1-red-pixel.png)
+</div>
 
-### You will need:
-- a
-- b
-- c
+### Debugging
+
+<div class="c-project-callout c-project-callout--debug">
+
+Check that you have commas between the numbers in `()`.
+
+</div>
+
+## Now run your code
+
+Run your code and check that the top-left LED lights up red.
