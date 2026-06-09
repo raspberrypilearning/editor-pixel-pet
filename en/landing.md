@@ -1,6 +1,6 @@
 ## What you will make
 
-Make a pixel pet move when the humidity changes.
+Make a pixel pet that moves when the humidity changes.
 
 Change the humidity to watch the cat run.
 

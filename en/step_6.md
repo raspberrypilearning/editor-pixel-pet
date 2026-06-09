@@ -24,14 +24,14 @@ for i in range(5):
 </div>
 
 <div class="c-project-output">
-![2-picture animation of the LED cat walking](images/animated-cat.gif)
+![An animation of the cat walking on the LED display.](images/animated-cat.gif)
 </div>
 
 ### Tip
 
 <div class="c-project-callout c-project-callout--tip">
 
-You can change the speed of the animation by changing the `sleep` times.
+To change the speed of the animation, you can change the `sleep` times.
 
 </div>
 
@@ -39,10 +39,10 @@ You can change the speed of the animation by changing the `sleep` times.
 
 <div class="c-project-callout c-project-callout--debug">
 
-Check that you have four spaces of indentation on the lines beneath your `for` loop.
+Check that you have 4 spaces of indentation on the lines beneath your `for` loop.
 
 </div>
 
 ## Now run your code
 
-Run your code and check that the two pictures play as a walking animation.
+Run your code and check that the two pictures play as an animation.

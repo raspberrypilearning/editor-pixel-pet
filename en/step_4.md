@@ -6,12 +6,12 @@ Use a list to colour all the pixels.
 
 You could keep setting single pixels to draw a picture using all the LEDs.
 
-It is easier to write a list, saying what each of the pixels' colours should be.
+But it is easier to write a list, saying what each of the pixels' colours should be.
 
-On your picture, add the letters used to code the colour. Then use these letters in your program.
+On your picture, add the letters you need to code each colour. Then, use these letters in your program.
 
 <div class="c-project-output">
-![annotated pet picture with letters drawn in each square to encode the colour](images/annotated-cat.png)
+![The 8-by-8 grid with the cat picture with a letter written in each square: e in the empty squares, p in the pink squares, g in the green squares, y in the yellow squares, and w in the white squares.](images/annotated-cat.png)
 </div>
 <div class="c-project-code">
 --- code ---
@@ -44,15 +44,14 @@ sense.set_pixels(pet1)
 </div>
 
 <div class="c-project-output">
-![a picture of a cat on the full LED display](images/cat-1.png)
+![The LED display showing the cat.](images/cat-1.png)
 </div>
 
 ### Debugging
 
 <div class="c-project-callout c-project-callout--tip">
 
-
-This list needs **8** letters on each row and **8** rows in total.
+This list needs **8** letters in each row and **8** rows in total.
 
 Check that there are commas at the end of each row.
 

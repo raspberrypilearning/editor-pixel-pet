@@ -1,7 +1,7 @@
 ---
 title: Pixel pet
 hero_image: images/banner.png
-description: Make a walking pixel pet with your Raspberry Pi and a Sense HAT
+description: Make a moving pixel pet with a Sense HAT
 original_url: https://www.raspberrypi.org/learning/pixel-pet/
 theme: red
 duration: 2

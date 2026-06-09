@@ -4,14 +4,14 @@ Add three more colours to use.
 
 <h2 class="c-project-heading--explainer">R, G, B</h2>
 
-Computers use three numbers to store a colour.
-- R --> The amount of red from 0 to 255
-- G --> The amount of green from 0 to 255
-- B --> The amount of blue from 0 to 255
+Computers use three numbers to store a colour:
+- R: The amount of red from 0 to 255
+- G: The amount of green from 0 to 255
+- B: The amount of blue from 0 to 255
 
-Add green and blue colours, and a new colour of your own to your program.
+Add green and blue colours and a new colour of your own to your program.
 
-Colour the pixels on the LED display using your new colours.
+Use your new colours to colour the pixels on the LED display.
 
 
 <div class="c-project-code">
@@ -36,18 +36,18 @@ sense.set_pixel(3, 0, a)
 </div>
 
 <div class="c-project-output">
-![LED display with top-left pixels coloured red, green, blue and white](images/4-coloured-pixels.png)
+![The LED display with the first four LEDs on the top row coloured red, green, blue, and white.](images/4-coloured-pixels.png)
 </div>
 
 ### Tip
 
 <div class="c-project-callout c-project-callout--tip">
 
-If you want black, then the numbers are `(0, 0, 0)`.
+If you want to use black, the numbers are `(0, 0, 0)`.
 
-White is `(255, 255, 255)`
+For white, use `(255, 255, 255)`.
 
-You can use a [colour picker](https://share.google/WkKa3VbOYnhYYkC9h){:target="_blank"} to find more colours to use.
+To find more colours to use, you can use a [colour picker](https://share.google/WkKa3VbOYnhYYkC9h){:target="_blank"}.
 
 </div>
 
