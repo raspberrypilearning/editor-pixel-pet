@@ -33,13 +33,13 @@ while True:
 
 <div class="c-project-callout c-project-callout--tip">
 
-Change the humidity using the slider.
+To change the humidity, use the slider.
 
 <div class="c-project-output">
-![the humidity slider set to 45%](images/humidity.png)
+![The humidity slider set to 45%.](images/humidity.png)
 </div>
 </div>
 
 ## Now run your code
 
-Run your code, raise the humidity above 50 with the slider, and check that your pet starts walking.
+Run your code, use the slider to raise the humidity above 50, and check that your animation starts.

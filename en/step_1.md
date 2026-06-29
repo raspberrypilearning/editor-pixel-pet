@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Create a colour</h2>
 
-Create some colours for your pet picture.
+Create the first colour for your pet picture.
 
 <h2 class="c-project-heading--explainer">Red</h2>
 
-Create a variable called `r` and set its colour to `255, 0, 0`. Then colour the top-left pixel in that colour.
+Create a variable called `r` and set its colour to `255, 0, 0`. Then, colour the top-left pixel in that colour.
 
 <div class="c-project-code">
 --- code ---
@@ -28,8 +28,9 @@ sense.set_pixel(0, 0, r)
 </div>
 
 Run your code.
+
 <div class="c-project-output">
-![top left pixel coloured red on the LED display](images/1-red-pixel.png)
+![The LED display with the top-left LED coloured red.](images/1-red-pixel.png)
 </div>
 
 ### Debugging
