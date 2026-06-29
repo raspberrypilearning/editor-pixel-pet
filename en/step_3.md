@@ -4,7 +4,7 @@ Draw the pet you want to show on the LED display on a piece of paper.
 
 <h2 class="c-project-heading--explainer">Draw a picture</h2>
 
-[Here are some examples](https://www.youtube.com/watch?v=PpHFQXoISWc&rel=0){:target="_blank"} to give you an idea.
+[Here are some examples](https://www.youtube.com/watch?v=PpHFQXoISWc&rel=0){:target="_blank"} to give you an idea. (Contains flashing images.)
 
 <div class="c-project-output">
 ![An 8-by-8 grid with a drawing of a walking cat formed of squares coloured green, yellow, pink, and white.](images/square-paper.png)
