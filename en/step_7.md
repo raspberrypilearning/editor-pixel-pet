@@ -1,20 +1,10 @@
-<h2 class="c-project-heading--task">Trigger the animation</h2>
+## Trigger the animation
 
 You can make the animation run when the environment changes.
 
-<h2 class="c-project-heading--explainer">Call your own function</h2>
-
 The `for` loop can sit inside a function. This can be **called** whenever the humidity changes.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 35
-line_highlights: 
----
+```python filename="main.py" line_numbers="true" line_number_start="35"
 def walking():
     for i in range(5):
         sense.set_pixels(pet1)
@@ -26,19 +16,13 @@ while True:
     hum = sense.get_humidity()
     if hum > 50:
         walking()
---- /code ---
-</div>
+```
 
-### Tip
-
-<div class="c-project-callout c-project-callout--tip">
-
-To change the humidity, use the slider.
-
-<div class="c-project-output">
-![The humidity slider set to 45%.](images/humidity.png)
-</div>
-</div>
+> [!TIP]
+>
+> To change the humidity, use the slider.
+>
+> ![The humidity slider set to 45%.](images/humidity.png)
 
 ## Now run your code
 
