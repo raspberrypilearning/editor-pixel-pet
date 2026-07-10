@@ -1,20 +1,10 @@
-<h2 class="c-project-heading--task">Create a colour</h2>
+## Create a colour
 
 Create the first colour for your pet picture.
 
-<h2 class="c-project-heading--explainer">Red</h2>
-
 Create a variable called `r` and set its colour to `255, 0, 0`. Then, colour the top-left pixel in that colour.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 7, 9
----
+```python filename="main.py" line_numbers="true" line_number_start="1" line_highlights="7,9"
 from sense_hat import SenseHat
 from time import sleep
 
@@ -24,23 +14,14 @@ sense.set_rotation(270, False)
 r = (255, 0, 0)
 
 sense.set_pixel(0, 0, r)
---- /code ---
-</div>
+```
 
-Run your code.
-
-<div class="c-project-output">
-![The LED display with the top-left LED coloured red.](images/1-red-pixel.png)
-</div>
-
-### Debugging
-
-<div class="c-project-callout c-project-callout--debug">
-
-Check that you have commas between the numbers in `()`.
-
-</div>
+> [!DEBUG]
+>
+> Check that you have commas between the numbers in `()`.
 
 ## Now run your code
 
 Run your code and check that the top-left LED lights up red.
+
+![The LED display with the top-left LED coloured red.](images/1-red-pixel.png)
